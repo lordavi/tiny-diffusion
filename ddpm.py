@@ -239,3 +239,5 @@ if __name__ == "__main__":
 
     print("Saving frames...")
     np.save(f"{outdir}/frames.npy", frames)
+    
+    print("DONE")
